@@ -4,14 +4,14 @@ function setup() {
  createCanvas(800,400);
 
 
- car1=createSprite(200, 200 , 15, 15);
+ car1=createSprite(200, 200 , 15, 5);
  
  
- car2=createSprite(199, 290 , 15, 15);
+ car2=createSprite(199, 290 , 15, 5);
 
- car3=createSprite(199, 50 , 15, 15);
+ car3=createSprite(199, 50 , 15, 5);
 
- car4=createSprite(198, 120 , 15, 15);
+ car4=createSprite(198, 120 , 15, 5);
   
  car1 .collidewall1;
  debug = true;
@@ -38,7 +38,7 @@ function setup() {
  car2.velocityX = 5;
  car1.speed=2;
  weight=random(401, 1501)
- 
+  
  car3.velocityX = 5;
  car1.speed=2;
  weight=random(401, 1501)
